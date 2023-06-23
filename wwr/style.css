@@ -201,22 +201,56 @@ img {
      opacity: .6;
      transform: scale(1.1);
 }
-#content-camping-page{
+
+/*------------------------------------------------------------------------*/
+
+#content-camping{
      max-width: 1600px;
      margin: 0 auto;
+     grid-template-columns: repeat(10, 1fr);
+     grid-template-rows: repeat(10, 1fr);
 }
-#hero-camping-subpage {
+#hero-camping {
      display: grid;
-     grid-template-columns: 1fr 3fr 1fr;
-     margin-top: -100px;
+     margin-top: -10px;
+     grid-column: 1 / 6;
 }
-#hero-box-camping-subpage {
-     grid-column: 1 / 4;
-     grid-row: 1 / 3;
-     z-index: -1;
+/*#hero-box-camping{
+     grid-column: 1 / 3;
+}*/
+#hero-img-camping{
+     width: 96.5%;
+     grid-column: 1 / 6;
 }
-#hero-img-camping-subpage{
-     width: 100%;
+.title-camping{
+     grid-column: 3 / 8;
+     color:   #6f7364;
+     margin-top: 10px;
+}
+.msg-awaking {
+     grid-column: 2 / 5;
+     grid-row: 5 /8;   
+     text-align: left;
+     color:   #6f7364;
+}
+.msg-camping{
+     grid-column: 7 / 11;
+     grid-row: 8 / 11;
+     text-align: left;
+     color:   #6f7364;
+     margin-top: 10px;
+}
+.awaking{
+     width: 700px;
+     margin-top: 10px;
+     grid-column: 6 / 11;
+     grid-row: 5 /8;   
+}
+.camping {
+     grid-row: 8 / 11;
+     grid-column: 2 / 5;
+     width: 500px;
+     margin-top: 10px;
 }
  @media screen and (max-width: 900px) {
      #hero, .home-grid {
