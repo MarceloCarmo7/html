@@ -1,0 +1,148 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+body {
+ background-color: #BAC3FF;
+ margin: 0;
+ padding: 0;
+ font-size: 22px;
+ font-family: Arial, Arial, Helvetica, sans-serif
+}
+header {
+ background-color: #BAC3FF;
+ display: grid;
+ grid-template-columns: 150px auto;
+}
+#logo_link  {
+ padding-top: 5px;
+ justify-self: center;
+ align-self: center;
+}
+.logo{
+ margin-left: auto;
+ margin-right: auto;
+ width: 80px;
+}
+#hero {
+ display: grid;
+ grid-template-columns: 1fr 3fr 1fr;
+ margin-top: -100px;
+}
+#hero-box{
+ grid-column: 1 / 4;
+ grid-row: 1 / 3;
+ z-index: -1;
+}
+#hero-msg{
+ grid-column: 2 / 3;
+ grid-row: 1 / 2;
+ margin-top: 100px;
+}
+#hero-img{
+ width: 100%;
+}
+#hero-msg h1{
+    text-align: center;
+    color: #fffc9c;
+}
+#hero-msg h4{
+ text-align: center;
+ color: #fffc9c;
+ 
+}
+.home-title {
+ color: #350056;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 2em;
+ margin-top: 10px;
+}
+nav {
+ background-color: #BAC3FF;
+ display: flex;
+ justify-content: space-around;
+ 
+}
+nav a:hover {
+background-color: #C4BAFF;
+color: #494b41;
+}
+nav a {
+ text-decoration: none;
+ padding: 35px;
+ text-align: center;
+ color: #6f7364;
+}
+a {
+ padding: 15px;
+ color: #350056;
+}
+#background {
+height: 725px;
+background-color: #BAC3FF;
+grid-column: 1 / 11;
+grid-row: 4 / 9;
+}
+main {
+ display: grid;
+ grid-template-columns: repeat(10, 1fr);
+}
+main section img {
+ box-sizing: border-box;
+}
+main section {
+ text-align: center;
+ color: #fffc9c;
+}
+.msg {
+    background-color: #C7DDFF;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6 / 10;
+    grid-row: 6 / 7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.msg h2 {
+ font-family: Arial, Helvetica, sans-serif;
+ color: #6f7364;
+ padding: 15px;
+}
+.msg p{
+ color: #6f7364;
+ padding: 15px;
+ padding-bottom: 15px;
+}
+footer {
+    background-color: #BAC3FF;
+    color: #6f7364;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .social img {
+ padding-top: 15px;
+ width: 80px;
+}     
+footer a {
+    color: #6f7364;
+    text-decoration: none;
+}
+footer a:hover {
+color: #2f302c;
+}
+footer p {
+font-size: 1.2em;
+padding: 15px;
+} 
+.icon {
+    width: 100px;
+    padding-top: 10px;
+}
+h1 {
+ margin: 50px 0;
+}
+h2 {
+ margin: 0;
+}
