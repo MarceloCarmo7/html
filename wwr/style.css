@@ -231,18 +231,18 @@ img {
      text-align: left;
      color:   #6f7364;
 }
+.awaking{
+     width: 700px;
+     margin-top: 10px;
+     grid-column: 6 / 11;
+     grid-row: 5 /8;   
+}
 .msg-camping{
      grid-column: 7 / 11;
      grid-row: 8 / 11;
      text-align: left;
      color:   #6f7364;
      margin-top: 10px;
-}
-.awaking{
-     width: 700px;
-     margin-top: 10px;
-     grid-column: 6 / 11;
-     grid-row: 5 /8;   
 }
 .camping {
      grid-row: 8 / 11;
