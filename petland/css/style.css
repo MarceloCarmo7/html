@@ -57,11 +57,11 @@ nav a {
  text-decoration: none;
  padding: 35px;
  text-align: center;
- color: #6f7364;
+ color: #F2D7EE;
 }
 a {
  padding: 15px;
- color: #D3BCC0;
+ color: #F2D7EE;
 }
 #background {
 height: 725px;
@@ -116,7 +116,7 @@ main section {
 }
 footer {
     background-color: #0E103D;
-    color: #6f7364;
+    color: #F2D7EE;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -130,7 +130,7 @@ footer .social img {
  width: 80px;
 }     
 footer a {
-    color: #6f7364;
+    color: #F2D7EE;
     text-decoration: none;
 }
 footer a:hover {
