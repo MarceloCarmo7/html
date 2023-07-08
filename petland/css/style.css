@@ -48,16 +48,23 @@ nav {
  background-color: #0E103D;
  display: flex;
  justify-content: space-around;
+
+}
+nav a.active {
+    background-color: #D3BCC0;
+    color: #F2D7EE
 }
 nav a:hover {
-background-color: #0E103D;
-color: #F2D7EE;
+    background-color: #F2D7EE;
+    color: #69306D;
 }
 nav a {
  text-decoration: none;
  padding: 35px;
  text-align: center;
  color: #F2D7EE;
+ float: left;
+ font-size: 17px;
 }
 a {
  padding: 15px;
@@ -243,3 +250,11 @@ h1 {
     grid-row: 8 / 10;
     grid-column: 4 / 11;
 }
+
+/*---------------------------------*/
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #69306D;
+    color: #F2D7EE
+  }
